@@ -1,0 +1,211 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #BFBD0A;
+}
+
+
+body {
+
+
+
+    background-color: purple;
+}
+
+
+.heading {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+nav.main-nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #BFBD0A;
+
+
+
+
+}
+
+
+nav.main-nav ul li a {
+
+
+
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: purple;
+
+
+
+
+}
+
+
+
+.cart {
+
+
+    background-color: white;
+}
+
+
+
+
+
+
+#cart-counter {
+    margin-top: 40px;
+    color: purple;
+}
+
+
+
+.empty-cart {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.home-btn {
+
+    background-color: #BFBD0A;
+    color: purple;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+
+#cartsection {
+
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+
+    width: 13%;
+    box-shadow: 0 0 4px 3px orange;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+.images {
+
+    margin-top: 50px;
+    width: 100px;
+
+
+
+}
+
+
+.delete-icon {
+
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.delete-icon:hover {
+
+    cursor: pointer;
+    background-color: #BFBD0A;
+}
+
+
+
+.total-price {
+
+
+    text-align: center;
+
+}
+
+
+
+/* purchase form section */
+
+.purchase-form {
+
+
+
+    margin-left: 110px;
+    color: black;
+
+}
+
+
+
+
+.field-set {
+
+
+
+
+
+    border-style: solid;
+    border-color: #BFBD0A;
+    display: inline-block;
+
+    margin-left: 500px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.submit-btn {
+
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 10px;
+    color: purple;
+    background-color: #BFBD0A;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+input {
+
+    color: black;
+}
+
+
+select,
+option {
+
+    color: black;
+}
+
+.confirmation-text {
+
+
+    text-align: center;
+    color: #BFBD0A;
+    font-weight: bold;
+}

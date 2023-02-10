@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Admin page</title>
+</head>
+
+<body>
+
+
+    <header>
+
+
+
+
+
+
+        <nav class="main-nav">
+            <ul>
+
+
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+
+
+
+
+
+
+                <li>
+
+                    <a href="admin.html">Admin page</a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="cart.html">
+                        <div class="cart icon"></div>
+                        <img src="img/shoping-cart.png" alt="" class="shoping-cart">
+                        <span id="cart-counter">0</span>
+                    </a>
+                </li>
+
+
+
+
+
+            </ul>
+
+
+
+        </nav>
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+    <h1 class="heading">Admin page</h1>
+
+
+
+
+    <form id="random" class="admin-form" onsubmit="return false">
+
+        <fieldset class="fieldset">
+            <legend>Update order information</legend>
+            <br>
+            <label for="admin-name"> Name</label>
+            <br>
+
+            <input type="text" name="name" id="admin-name" placeholder="enter your here" required>
+            <br><br>
+            <label for="admin-adress">adress</label>
+            <br>
+            <input type="text" name="adress" id="admin-adress" placeholder=" enter your adress" required>
+            <br><br>
+            <label for="admin-email">Email</label>
+            <br>
+            <input type="text" name="email" id="admin-email" placeholder="enter your email" required>
+            <br>
+            <br>
+            <label for="admin-id">id</label>
+
+            <br>
+            <input type="text" name="id" id="admin-id" placeholder=" enter  product id " required>
+            <br>
+            <br>
+            <label for="admin-delivery">Delivery</label>
+            <br>
+
+            <select name="delivery" id="admin-delivery" required>
+                <option value="" disabled selected>Delivery</option>
+                <option value="Standard delivery ">Standard delivery>
+                <option value="ups delivery ">ups delivery >
+                <option value="fedex delivery">fedex delivery</option>
+                <option value="amazon(home delivery)">amazon(home delivery)</option>
+            </select>
+            <br>
+
+
+            <br>
+            <br>
+
+
+        </fieldset>
+
+    </form>
+    <br>
+    <hr>
+
+    <section id="container">
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <script src="src/admin.js"></script>
+
+</body>
+
+</html>

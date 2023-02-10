@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>shopping cart</title>
+</head>
+
+<body>
+
+
+
+    <header>
+
+
+
+
+
+        <nav class="main-nav">
+            <ul>
+
+
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+
+
+
+
+                <li>
+                    <a href="admin.html">Admin page</a>
+
+                </li>
+
+                <li>
+
+                    <a href="cart.html">
+                        <div class="cart icon"></div>
+                        <img src="img/shoping-cart.png" alt="" class="shoping-cart">
+                        <span id="cart-counter">0</span>
+                    </a>
+                </li>
+
+
+
+            </ul>
+
+
+
+        </nav>
+
+
+
+
+
+    </header>
+
+
+    <h1 class="heading"> shopping cart</h1>
+
+
+
+    <section id="total-price"></section>
+
+
+    <section id="label-cart" class="empty-cart">
+
+
+    </section>
+
+
+
+    <form id="form" class="purchase-form" onsubmit="return false">
+
+        <fieldset class="field-set">
+            <legend>purchase form</legend>
+            <label for="name">Namn:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="enter your name" required>
+            <br><br>
+            <label for="adress">Adress:</label>
+            <br>
+            <input type="text" name="adress" id="adress" placeholder="enter adress" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <br><br>
+            <select name="delivery" id="delivery" required>
+                <option value="" disabled selected>Delivery</option>
+                <option value="Standard delivery ">Standard delivery</option>
+                <option value="ups delivery ">ups delivery </option>
+                <option value="fedex delivery">fedex delivery</option>
+                <option value="amazon(home delivery)">amazon(home delivery)</option>
+            </select>
+            <br>
+
+            <br>
+            <input type="submit" value="buy" id="submit-btn" class="submit-btn">
+
+
+        </fieldset>
+        <br>
+        <br>
+
+
+    </form>
+
+    <section id="cartsection">
+
+
+    </section>
+
+
+
+
+
+
+
+    <script src="src/cart.js"></script>
+
+
+</body>
+
+</html>

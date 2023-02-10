@@ -1,0 +1,284 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #BFBD0A;
+}
+
+
+header {
+
+
+
+    max-width: 2000px;
+
+}
+
+body {
+
+
+
+    background-color: purple;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+
+
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
+#cards {
+
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card {
+
+    width: 23%;
+    box-shadow: 0 0 4px 3px orange;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+
+.title {
+    font-size: 1.3rem;
+
+}
+
+
+.catergory,
+.price {
+
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+
+.images {
+    margin-top: 50px;
+    width: 200px;
+
+}
+
+.descri {
+
+    margin-top: 40px;
+
+
+}
+
+/* add to cart button*/
+.btn {
+
+    width: 100px;
+    margin-bottom: 10px;
+    color: purple;
+    background-color: #BFBD0A;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.form {
+
+    margin-left: 50px;
+    color: black;
+
+
+
+}
+
+
+.submit-btn {
+
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 10px;
+    color: purple;
+    background-color: #BFBD0A;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+.cart {
+
+
+    background-color: white;
+}
+
+
+.li-cart {
+
+
+    margin-right: 50px;
+}
+
+
+.container {
+
+
+
+
+    background-color: white;
+}
+
+
+nav.main-nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #BFBD0A;
+
+
+
+}
+
+
+nav.main-nav ul li a {
+
+
+
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: purple;
+    cursor: pointer;
+    display: block;
+
+
+
+
+}
+
+
+
+
+
+
+#cart-counter {
+    padding-bottom: 50px;
+    color: purple;
+
+
+}
+
+
+
+/*  form styling*/
+
+
+.field-set {
+
+
+
+
+
+    border-style: solid;
+    border-color: #BFBD0A;
+    display: inline-block;
+
+    margin-left: 500px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling for the item for speffecfic category */
+
+.jewelry {
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+button {
+
+    cursor: pointer;
+
+
+}
+
+
+
+.catergory-button {
+
+    border: none;
+    background-color: #BFBD0A;
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.catergory-button:hover {
+    background-color: purple;
+    color: #BFBD0A;
+
+
+}
+
+
+
+
+
+footer {
+
+
+    background-color: #BFBD0A;
+    width: 100%;
+    color: purple;
+    text-align: center;
+
+
+
+}
