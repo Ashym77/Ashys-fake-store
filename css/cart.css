@@ -224,7 +224,7 @@ option {
 
         display: flex;
         justify-content: end;
-        margin-right: 100px;
+        margin-right: 120px;
 
 
     }
@@ -234,7 +234,7 @@ option {
     }
 
     .card {
-
+        margin-top: 40px;
         width: 100px;
     }
 
@@ -247,6 +247,7 @@ option {
         flex-wrap: wrap;
 
     }
+
 
 
 }

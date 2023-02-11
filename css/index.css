@@ -288,7 +288,16 @@ footer {
 @media screen and (max-width:767px) {
 
 
-    #cards .card .images {
+
+
+    .card {
+
+        width: 170px;
+
+    }
+
+
+    .images {
         width: 70px;
 
 
@@ -300,13 +309,7 @@ footer {
         width: 70px;
     }
 
-    .order-id {
 
-     
-       
-
-
-    }
 
 
 }
