@@ -210,3 +210,43 @@ option {
     color: #BFBD0A;
     font-weight: bold;
 }
+
+
+
+/*   */
+
+@media screen and (max-width:767px) {
+
+
+    .purchase-form {
+
+
+
+        display: flex;
+        justify-content: end;
+        margin-right: 100px;
+
+
+    }
+
+    .images {
+        width: 70px;
+    }
+
+    .card {
+
+        width: 100px;
+    }
+
+
+    #cartsection {
+
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+
+}

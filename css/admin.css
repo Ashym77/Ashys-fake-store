@@ -151,3 +151,25 @@ input {
     margin-top: 40px;
     color: purple;
 }
+
+
+
+@media screen and (max-width:767px) {
+
+
+
+
+
+
+    .card {
+
+        width: 300px;
+    }
+
+    
+
+
+
+
+
+}

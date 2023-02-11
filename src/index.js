@@ -106,7 +106,7 @@ function addToCart(id, title, price, image, ) {
 
 
 
-
+    //sätter in världen in local storage när man pushar in föremål i arrayen
 
     localStorage.setItem("items", JSON.stringify(arrayItems));
 
@@ -126,6 +126,7 @@ function addToCart(id, title, price, image, ) {
 
 }
 
+// function för cart counter
 function cartcount() {
 
 
@@ -136,6 +137,7 @@ function cartcount() {
     }
 }
 
+// aktiverar cart count så den visas driekt på sidan
 cartcount();
 
 
@@ -143,7 +145,7 @@ cartcount();
 let totalsum = 0;
 
 
-//funktioner 
+//funktioner  
 
 function additem() {
 

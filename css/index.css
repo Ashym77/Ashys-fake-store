@@ -282,3 +282,31 @@ footer {
 
 
 }
+
+
+
+@media screen and (max-width:767px) {
+
+
+    #cards .card .images {
+        width: 70px;
+
+
+
+    }
+
+    .btn {
+
+        width: 70px;
+    }
+
+    .order-id {
+
+     
+       
+
+
+    }
+
+
+}

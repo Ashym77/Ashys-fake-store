@@ -28,7 +28,7 @@ function admingpage(orders) {
         <article class="card">
         <ul class="admin-list">
         
-        <li> ${"order ID:"+ item.name  }</li>
+        <p class="order-id"> ${"order ID:"+ item.name  }</p>
         <br>
         <li> ${"Name: "+ item.fields.Name.stringValue}</li>
         <li> ${"Adress "+ item.fields.adress.stringValue}</li>
