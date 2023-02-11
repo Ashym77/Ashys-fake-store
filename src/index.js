@@ -104,7 +104,7 @@ function addToCart(id, title, price, image, ) {
 
 
 
-    console.log(arrayItems);
+
 
 
 
