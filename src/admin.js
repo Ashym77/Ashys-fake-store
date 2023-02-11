@@ -105,7 +105,7 @@ function updateuser(name) {
 
   if (!namn || !email || !adress || !admindelivery || !id) {
 
-    alert("please fill all the field in the form. email field must contain @ ")
+    alert("please fill all the field in the form above for updating. email field must contain @ ")
     return;
   }
   let body = JSON.stringify(

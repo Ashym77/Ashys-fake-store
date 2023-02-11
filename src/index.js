@@ -123,7 +123,7 @@ function addToCart(id, title, price, image, ) {
 
 
     })
-    console.log(totalsum.toFixed(2))
+
 }
 
 function cartcount() {

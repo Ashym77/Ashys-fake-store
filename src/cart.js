@@ -33,7 +33,6 @@ arrayItems.forEach(element => {
 
 })
 
-console.log("totalsum " + totalsum.toFixed(2) + " $")
 
 
 /* function for cart count when u add to cart it  put number on cart icon 
