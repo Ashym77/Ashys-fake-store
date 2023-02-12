@@ -288,14 +288,19 @@ footer {
 @media screen and (max-width:767px) {
 
 
-
+    
 
     .card {
 
-        width: 170px;
+        width: 150px;
 
     }
 
+    .descri {
+
+
+        word-wrap: break-word;
+    }
 
     .images {
         width: 70px;
@@ -309,6 +314,8 @@ footer {
         width: 70px;
     }
 
+
+  
 
 
 

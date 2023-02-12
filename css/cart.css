@@ -224,7 +224,7 @@ option {
 
         display: flex;
         justify-content: end;
-        margin-right: 120px;
+        margin-right: 100px;
 
 
     }
@@ -235,7 +235,7 @@ option {
 
     .card {
         margin-top: 40px;
-        width: 100px;
+        width: 150px;
     }
 
 
