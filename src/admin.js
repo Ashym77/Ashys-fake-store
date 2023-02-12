@@ -1,5 +1,6 @@
 "use strict";
 
+// html element
 
 const nameEl = document.getElementById("admin-name");
 const addressEl = document.getElementById("admin-adress");
@@ -9,6 +10,8 @@ const containersEl = document.getElementById("container");
 const admindeliveryEl = document.getElementById("admin-delivery");
 const cartEl = document.getElementById("cart-counter");
 
+
+//fetch för skriva ut all datafrån min databas
 
 fetch("https://firestore.googleapis.com/v1/projects/ashkans-da1e8/databases/(default)/documents/shop")
   .then(res => res.json())
@@ -58,7 +61,7 @@ function admingpage(orders) {
 
 }
 
-
+//fetch för delete en order
 
 function deleteuser(name) {
 
@@ -92,6 +95,7 @@ function deleteuser(name) {
 
 
 
+//fetch för uppdatera order
 
 
 function updateuser(name) {
@@ -102,6 +106,13 @@ function updateuser(name) {
   let email = emailEl1.value;
   let id = idEl1.value;
   let admindelivery = admindeliveryEl.value;
+
+/*detta gör så att formen måste fyllas i för kunna skicka tyvär lyckades 
+jag inte få ut att man kunde ändra fällt men kommer jobba vidare på det senare
+så jag skrev ut med alert för tillfället
+
+
+*/
 
   if (!namn || !email || !adress || !admindelivery || !id) {
 
@@ -172,8 +183,10 @@ function updateuser(name) {
 
 }
 
-
+// min array som jag hämtar data ifrån local storage där produkterna finns
 let arrayItems = JSON.parse(localStorage.getItem("items")) || []
+
+// funktion för räkna varorr i korgen varge gång man klicka på en vara
 
 function cartcount() {
 
@@ -185,4 +198,5 @@ function cartcount() {
   }
 }
 
+// för att det ska skrivas ut 
 cartcount();
