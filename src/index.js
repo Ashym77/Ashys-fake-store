@@ -45,7 +45,7 @@ function store(data, selectedCategory) {
         return false;
     });
 
-    console.log(item)
+   
 
     cardsEl.innerHTML = "";
 
@@ -89,7 +89,7 @@ function store(data, selectedCategory) {
 
 let arrayItems = JSON.parse(localStorage.getItem("items")) || []
 
-console.log(arrayItems);
+
 
 
 function addToCart(id, title, price, image, ) {
